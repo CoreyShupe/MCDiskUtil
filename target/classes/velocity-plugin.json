@@ -1,0 +1,1 @@
+{"id":"mc-disk-util","name":"MCDiskUtil","version":"1.0.0","description":"Simple disk utility plugin for minehut servers.","authors":["FiXed (Corey)"],"dependencies":[],"main":"io.github.coreyshupe.mcdiskutil.velocity.VelocityPlugin"}

@@ -1,0 +1,24 @@
+main: io.github.coreyshupe.mcdiskutil.paper.PaperPlugin
+version: 1.0.0
+name: "MCDiskUtil"
+author: "FiXed"
+description: "Simple disk utility plugin for Minehut servers."
+api-version: 18
+
+commands:
+  diskutil:
+    description: "Command for checking disk utilities."
+    aliases: ["du"]
+    permission: "disk.util"
+    permission-message: "You do not have permission to check disk info."
+    usage: "/du <filePath>"
+
+permissions:
+  "disk.util.*":
+    description: "Admin permission for disk utility operations."
+    children:
+      "disk.util": true
+    default: false
+  "disk.util":
+    description: "Base permission for disk utility operations."
+    default: false
